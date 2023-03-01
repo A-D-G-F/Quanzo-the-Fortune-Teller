@@ -2,7 +2,7 @@
 #Misisng better file pathing
 
 table = {}
-with open('/Users/Alan Garza/OneDrive/Documents/CMSC 140/Week8/Quanzo Fortune Table.csv') as f:
+with open('/Users/shobunch/Downloads/CMSC_140/Quanzo-the-Fortune-Teller') as f:
     next(f)
     for line in f.readlines():
         line = line.strip().split(',')
